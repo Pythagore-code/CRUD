@@ -1,0 +1,10 @@
+{% extends "Gestion_tache/base.html" %}
+
+
+{% block content %}
+<form action="" method="post" autocomplete="off">
+    {% csrf_token %}
+    {{form|ful}}
+</form>
+
+{% endblock content %}
